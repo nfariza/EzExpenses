@@ -1,0 +1,171 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    android:padding="@dimen/_16sdp"
+    android:orientation="vertical"
+    android:fitsSystemWindows="true"
+    tools:context=".ui.expenses.AddExpense">
+
+    <TextView
+        android:id="@+id/expense_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:maxLines="1"
+        android:padding="@dimen/_12sdp"
+        android:text="Type of Expenses"
+        android:layout_marginTop="@dimen/_7sdp"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:textSize="@dimen/_15sdp" />
+
+    <Spinner
+        android:id="@+id/spinnerExpenses"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/text_border"
+        android:prompt="@string/expenses_prompt"
+        android:padding="@dimen/_12sdp"
+        android:layout_below="@id/expense_name"
+        android:layout_marginTop="@dimen/_20sdp"/>
+
+    <RelativeLayout
+        android:id="@+id/linear"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_below="@id/spinnerExpenses">
+
+    <TextView
+        android:id="@+id/rm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/_12sdp"
+        android:layout_marginTop="@dimen/_16sdp"
+        android:text="RM"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:textSize="@dimen/_12sdp" />
+
+    <EditText
+        android:id="@+id/amount"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_16sdp"
+        android:layout_toRightOf="@+id/rm"
+        android:ems="10"
+        android:hint="@string/amount"
+        android:inputType="numberDecimal"
+        android:padding="@dimen/_12sdp"
+        android:singleLine="true"
+        android:textColor="@color/black"
+        android:textSize="@dimen/_12sdp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/relative"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/linear">
+
+        <Button
+            android:id="@+id/btndate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/_12sdp"
+            android:layout_marginTop="@dimen/_16sdp"
+            android:textColor="@color/black"
+            android:background="@color/colorAccent"
+            android:text="Select Date"/>
+
+        <TextView
+            android:id="@+id/datepick"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/_12sdp"
+            android:layout_marginTop="@dimen/_16sdp"
+            android:layout_marginStart="@dimen/_5sdp"
+            android:text="Date"
+            android:textColor="@color/black"
+            android:layout_toRightOf="@+id/btndate"
+            android:textSize="@dimen/_12sdp" />
+
+        <TextView
+            android:id="@+id/paidTv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/_12sdp"
+            android:layout_marginTop="@dimen/_16sdp"
+            android:text="Paid By"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:textSize="@dimen/_12sdp"
+            android:layout_below="@id/btndate"/>
+
+        <Spinner
+            android:id="@+id/spinnerPaid"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/text_border"
+
+            android:padding="@dimen/_12sdp"
+            android:layout_below="@id/paidTv" />
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/attach"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/_12sdp"
+        android:layout_marginTop="@dimen/_16sdp"
+        android:text="Attach File"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:textSize="@dimen/_12sdp"
+        android:layout_below="@+id/relative"/>
+
+    <Button
+        android:id="@+id/selectFile"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/_5sdp"
+        android:layout_marginTop="@dimen/_5sdp"
+        android:textColor="@color/black"
+        android:background="@color/colorAccent"
+        android:layout_below="@id/attach"
+        android:text="Select File"/>
+
+    <ImageView
+        android:id="@+id/attachFile"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="@dimen/_12sdp"
+        android:src="@drawable/ic_attach_file"
+        android:layout_below="@+id/selectFile"/>
+
+    <TextView
+        android:id="@+id/fileSelected"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/_5sdp"
+        android:layout_marginTop="@dimen/_20sdp"
+        android:text="No File is Selected"
+        android:textColor="@color/black"
+        android:textSize="@dimen/_10sdp"
+        android:layout_toRightOf="@id/attachFile"
+        android:layout_below="@+id/selectFile"/>
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/btn_addexpenses"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_gravity="bottom|end"
+        android:layout_marginStart="@dimen/fab_margin"
+        android:layout_marginTop="10dp"
+        android:src="@drawable/ic_done_white"
+        android:background="@color/colorAccent"/>
+
+</RelativeLayout>

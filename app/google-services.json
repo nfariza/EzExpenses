@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "59319606806",
+    "firebase_url": "https://ezexpenses-52b8a.firebaseio.com",
+    "project_id": "ezexpenses-52b8a",
+    "storage_bucket": "ezexpenses-52b8a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:59319606806:android:4d96dd7931be997df89f37",
+        "android_client_info": {
+          "package_name": "com.fariza.mpezexpenses"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "59319606806-h4i2q84ds5ce1btfgh77vcrd3bmsdmhv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAxvB98SSy0ujw0YX1VwyOZLYsDB1ONmVQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "59319606806-h4i2q84ds5ce1btfgh77vcrd3bmsdmhv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

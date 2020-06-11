@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:fitsSystemWindows="true"
+    android:background="@color/colorPrimary"
+    tools:context=".ui.expenses.ExpenseHomepage">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?android:attr/actionBarSize"
+        android:background="@drawable/side_nav_bar"
+        android:theme="@style/Theme.AppCompat.Light.DarkActionBar">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/groupName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="GroupName"
+                android:layout_marginStart="@dimen/_10sdp"
+                android:layout_centerVertical="true"
+                android:textColor="@color/white"
+                android:textSize="@dimen/_18sdp"
+                android:textStyle="bold"/>
+        </RelativeLayout>
+    </androidx.appcompat.widget.Toolbar>
+
+    <RelativeLayout
+        android:id="@+id/type"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/toolbar">
+
+        <TextView
+            android:id="@+id/expensesTv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_15sdp"
+            android:padding="@dimen/_15sdp"
+            android:text="Expenses Type "
+            android:textSize="@dimen/_12sdp"
+            android:textStyle="bold"
+            android:textColor="@color/black"/>
+
+        <TextView
+            android:id="@+id/expenseType"
+            android:layout_width="match_parent"
+            android:layout_marginStart="@dimen/_15sdp"
+            android:layout_height="wrap_content"
+            android:text="Expenses"
+            android:textSize="@dimen/_12sdp"
+            android:textColor="@color/black"
+            android:layout_below="@id/expensesTv"/>
+        </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/type">
+
+        <TextView
+            android:id="@+id/recordBy"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_15sdp"
+            android:padding="@dimen/_15sdp"
+            android:text="Record By:"
+            android:textSize="@dimen/_12sdp"
+            android:textStyle="bold"
+            android:textColor="@color/black"/>
+
+        <TextView
+            android:id="@+id/recorder"
+            android:layout_width="match_parent"
+            android:layout_marginStart="@dimen/_15sdp"
+            android:layout_height="wrap_content"
+            android:text="Recorder Name"
+            android:textSize="@dimen/_12sdp"
+            android:textColor="@color/black"
+            android:layout_below="@id/recordBy"/>
+
+        <TextView
+            android:id="@+id/amount"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_15sdp"
+            android:padding="@dimen/_15sdp"
+            android:text="Amount:"
+            android:textSize="@dimen/_12sdp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:layout_below="@id/recorder"/>
+
+        <TextView
+            android:id="@+id/rm"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/_15sdp"
+            android:text="RM"
+            android:textSize="@dimen/_12sdp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:layout_below="@id/amount"/>
+
+        <TextView
+            android:id="@+id/expenseAmount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toEndOf="@id/rm"
+            android:layout_marginStart="@dimen/_15sdp"
+            android:text="Expenses Amount"
+            android:textSize="@dimen/_12sdp"
+            android:textColor="@color/black"
+            android:layout_below="@id/amount"/>
+
+        <TextView
+            android:id="@+id/date"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_30sdp"
+            android:padding="@dimen/_15sdp"
+            android:text="Date"
+            android:textSize="@dimen/_12sdp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:layout_below="@id/amount"/>
+
+        <TextView
+            android:id="@+id/expenseDate"
+            android:layout_width="match_parent"
+            android:layout_marginStart="@dimen/_15sdp"
+            android:layout_height="wrap_content"
+            android:text="Expenses Date"
+            android:textSize="@dimen/_12sdp"
+            android:textColor="@color/black"
+            android:layout_below="@id/date"/>
+
+        <TextView
+            android:id="@+id/payer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_15sdp"
+            android:padding="@dimen/_15sdp"
+            android:text="Payer:"
+            android:textSize="@dimen/_12sdp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:layout_below="@id/expenseDate"/>
+
+        <TextView
+            android:id="@+id/payerName"
+            android:layout_width="match_parent"
+            android:layout_marginStart="@dimen/_15sdp"
+            android:layout_height="wrap_content"
+            android:text="Expenses Payer"
+            android:textSize="@dimen/_12sdp"
+            android:textColor="@color/black"
+            android:layout_below="@id/payer"/>
+
+        <TextView
+            android:id="@+id/uri"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_30sdp"
+            android:padding="@dimen/_15sdp"
+            android:text="File:"
+            android:textSize="@dimen/_12sdp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:layout_below="@id/payer"/>
+
+        <TextView
+            android:id="@+id/uriFile"
+            android:layout_width="match_parent"
+            android:layout_marginStart="@dimen/_15sdp"
+            android:layout_height="wrap_content"
+            android:text="url"
+            android:textSize="@dimen/_12sdp"
+            android:textColor="@color/black"
+            android:layout_below="@id/uri"/>
+    </RelativeLayout>
+
+    <!--
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/btn_editExpense"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_margin="10dp"
+        android:src="@drawable/ic_edit_white"/>-->
+</RelativeLayout>

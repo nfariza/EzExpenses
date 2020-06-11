@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/linearMessage"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/colorSender"
+    android:layout_marginStart="100dp"
+    android:layout_marginTop="10dp"
+    android:padding="10dp">
+
+
+    <TextView
+        android:id="@+id/TvName"
+        android:text="Name"
+        android:visibility="gone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="5dp"
+        android:textColor="@color/colorAccent"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/TvMessage"
+        android:text="Message"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginBottom="5dp"
+        android:textColor="@color/black"/>
+
+    <ImageView
+        android:id="@+id/IvMessage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:scaleType="matrix"
+        android:paddingBottom="@dimen/_5sdp"
+        android:src="@drawable/ic_gallery_black" />
+
+    <TextView
+        android:id="@+id/TvTime"
+        android:text="Time"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="5dp"
+        android:textAlignment="textEnd"
+        android:textSize="12sp"/>
+
+</LinearLayout>

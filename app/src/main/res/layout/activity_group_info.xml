@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    tools:context=".ui.group.GroupInfo">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/groupIconIv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:minHeight="300dp"/>
+
+            <TextView
+                android:id="@+id/TvcreatedBy"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Created by creatorName, dd/mm/yyyy"
+                android:layout_alignParentBottom="true"
+                android:textSize="@dimen/_12sdp"
+                android:padding="5dp"
+                android:background="@color/colorSender"
+                android:textColor="@color/white"/>
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/TveditGroup"
+            android:drawableStart="@drawable/ic_edit_white"
+            android:drawableTint="@color/colorAccent"
+            android:gravity="center_vertical"
+            android:drawablePadding="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Edit Group"
+            android:padding="5dp"
+            android:textColor="@color/black"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/colorAccent"/>
+
+        <TextView
+            android:id="@+id/TvaddMember"
+            android:drawableStart="@drawable/ic_add_member"
+            android:drawableTint="@color/colorAccent"
+            android:gravity="center_vertical"
+            android:drawablePadding="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Add Member"
+            android:padding="5dp"
+            android:textColor="@color/black"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/colorAccent"/>
+
+        <TextView
+            android:id="@+id/TvleaveGroup"
+            android:drawableStart="@drawable/ic_leave_group"
+            android:drawableTint="@color/colorAccent"
+            android:gravity="center_vertical"
+            android:drawablePadding="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Leave Group"
+            android:padding="5dp"
+            android:textColor="@color/black"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/colorAccent"/>
+
+        <TextView
+            android:id="@+id/TvMembers"
+            android:drawableStart="@drawable/ic_group_white"
+            android:drawableTint="@color/colorAccent"
+            android:gravity="center_vertical"
+            android:drawablePadding="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Members"
+            android:padding="5dp"
+            android:textColor="@color/black"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/colorAccent"/>
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/membersRv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+            tools:listitem="@layout/model_member_list"/>
+
+    </LinearLayout>
+
+</androidx.core.widget.NestedScrollView>

@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardBackgroundColor="@color/colorPrimary"
+    app:cardCornerRadius="2dp"
+    app:cardElevation="2dp"
+    app:contentPadding="3dp"
+    android:layout_marginTop="1dp">
+
+
+
+    <LinearLayout
+        android:id="@+id/linear"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="10dp">
+
+        <LinearLayout
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/expenseHistory"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Expenses Type"
+                android:textStyle="bold"
+                android:textSize="@dimen/_15sdp"
+                android:textColor="@color/black"/>
+
+            <RelativeLayout
+                android:id="@+id/relative"
+                android:layout_marginTop="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/amountType"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"
+                    android:text="Amount : RM "
+                    android:textColor="@color/black"/>
+
+                <TextView
+                    android:id="@+id/expenseAmount"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_toEndOf="@+id/amountType"
+                    android:layout_marginStart="5dp"
+                    android:text="Amount"
+                    android:textColor="@color/black"/>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/relative3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/linear">
+
+                <TextView
+                    android:id="@+id/payer"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"
+                    android:text="Paid By : "
+                    android:textColor="@color/black"/>
+
+                <TextView
+                    android:id="@+id/payerName"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:text="Payer"
+                    android:layout_toEndOf="@+id/payer"
+                    android:textColor="@color/black"/>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/relative4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/relative3">
+
+                <TextView
+                    android:id="@+id/pay"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"
+                    android:text="Each Need to Pay : RM "
+                    android:textColor="@color/black"/>
+
+                <TextView
+                    android:id="@+id/payAmount"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Amount"
+                    android:layout_marginStart="5dp"
+                    android:layout_toEndOf="@+id/pay"
+                    android:textColor="@color/black"/>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/relative5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/relative4">
+
+                <TextView
+                    android:id="@+id/members"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"
+                    android:text="Current Members : "
+                    android:textColor="@color/black"/>
+
+                <TextView
+                    android:id="@+id/countMembers"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Count"
+                    android:layout_marginStart="5dp"
+                    android:layout_toEndOf="@+id/members"
+                    android:textColor="@color/black"/>
+
+                <TextView
+                    android:id="@+id/expenseDate"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Time"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginEnd="5dp"
+                    android:layout_alignEnd="@+id/countMembers"
+                    android:singleLine="true"
+                    android:textColor="#666262"/>
+            </RelativeLayout>
+
+            <RelativeLayout
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/attachFile"
+                    android:layout_width="500dp"
+                    android:layout_height="500dp"
+                    android:layout_marginTop="@dimen/_5sdp"
+                    android:src="@drawable/ic_attach_file" />
+            </RelativeLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>
