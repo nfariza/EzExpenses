@@ -8,7 +8,7 @@ The system only have one user.
 * Sign In
 * Sign Up
 * Reset Password
-* Profile page
+* Profile Page
 * Manage House Groups
 * Manage House Expenses
    
