@@ -22,14 +22,14 @@ The system only have one user.
     &nbsp  &nbsp  &nbsp  &nbsp
     <img src="https://github.com/nfariza/EzExpenses/blob/EzExpenses/ezexpenses/screenshots/2.jpg" width="auto" height="400">
     &nbsp  &nbsp  &nbsp  &nbsp
-    <img src="https://github.com/nfariza/EzExpenses/blob/EzExpenses/ezexpenses/screenshots/3.jpg" width="auto" height="auto">
+    <img src="https://github.com/nfariza/EzExpenses/blob/EzExpenses/ezexpenses/screenshots/3.jpg" width="auto" height="400">
     &nbsp  &nbsp  &nbsp  &nbsp
-    <img src="https://github.com/nfariza/EzExpenses/blob/EzExpenses/ezexpenses/screenshots/4.jpg" width="auto" height="auto">
+    <img src="https://github.com/nfariza/EzExpenses/blob/EzExpenses/ezexpenses/screenshots/4.jpg" width="auto" height="400">
     &nbsp  &nbsp  &nbsp  &nbsp
-    <img src="https://github.com/nfariza/EzExpenses/blob/EzExpenses/ezexpenses/screenshots/5.jpg" width="auto" height="auto">
+    <img src="https://github.com/nfariza/EzExpenses/blob/EzExpenses/ezexpenses/screenshots/5.jpg" width="auto" height="400">
     &nbsp  &nbsp  &nbsp  &nbsp
-    <img src="https://github.com/nfariza/EzExpenses/blob/EzExpenses/ezexpenses/screenshots/6.jpg" width="auto" height="auto">
+    <img src="https://github.com/nfariza/EzExpenses/blob/EzExpenses/ezexpenses/screenshots/6.jpg" width="auto" height="400">
     &nbsp  &nbsp  &nbsp  &nbsp
-    <img src="https://github.com/nfariza/EzExpenses/blob/EzExpenses/ezexpenses/screenshots/7.jpg" width="auto" height="auto">
+    <img src="https://github.com/nfariza/EzExpenses/blob/EzExpenses/ezexpenses/screenshots/7.jpg" width="auto" height="400">
     &nbsp  &nbsp  &nbsp  &nbsp
 </p>
