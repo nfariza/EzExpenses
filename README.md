@@ -18,18 +18,18 @@ The system only have one user.
 
 ## Screenshots
 <p>
-<img src="ezexpenses/screenshots/1.JPG" width="400" height="auto">
+<img src="ezexpenses/screenshots/1.JPG" width="auto" height="auto">
     &nbsp  &nbsp  &nbsp  &nbsp
-    <img src="ezexpenses/screenshots/2.JPG" width="400" height="auto">
+    <img src="ezexpenses/screenshots/2.JPG" width="auto" height="auto">
     &nbsp  &nbsp  &nbsp  &nbsp
-    <img src="ezexpenses/screenshots/3.JPG" width="400" height="auto">
+    <img src="ezexpenses/screenshots/3.JPG" width="auto" height="auto">
     &nbsp  &nbsp  &nbsp  &nbsp
-    <img src="ezexpenses/screenshots/4.JPG" width="400" height="auto">
+    <img src="ezexpenses/screenshots/4.JPG" width="auto" height="auto">
     &nbsp  &nbsp  &nbsp  &nbsp
-    <img src="ezexpenses/screenshots/5.JPG" width="400" height="auto">
+    <img src="ezexpenses/screenshots/5.JPG" width="auto" height="auto">
     &nbsp  &nbsp  &nbsp  &nbsp
-    <img src="ezexpenses/screenshots/6.JPG" width="400" height="auto">
+    <img src="ezexpenses/screenshots/6.JPG" width="auto" height="auto">
     &nbsp  &nbsp  &nbsp  &nbsp
-    <img src="ezexpenses/screenshots/7.JPG" width="400" height="auto">
+    <img src="ezexpenses/screenshots/7.JPG" width="auto" height="auto">
     &nbsp  &nbsp  &nbsp  &nbsp
 </p>
