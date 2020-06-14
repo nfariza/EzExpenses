@@ -18,18 +18,18 @@ The system only have one user.
 
 ## Screenshots
 <p>
-<img src="ezexpenses/screenshots/1.JPG" width="auto" height="auto">
+<img src="https://github.com/nfariza/EzExpenses/blob/EzExpenses/ezexpenses/screenshots/1.jpg" width="auto" height="400">
     &nbsp  &nbsp  &nbsp  &nbsp
-    <img src="ezexpenses/screenshots/2.JPG" width="auto" height="auto">
+    <img src="https://github.com/nfariza/EzExpenses/blob/EzExpenses/ezexpenses/screenshots/2.jpg" width="auto" height="400">
     &nbsp  &nbsp  &nbsp  &nbsp
-    <img src="ezexpenses/screenshots/3.JPG" width="auto" height="auto">
+    <img src="https://github.com/nfariza/EzExpenses/blob/EzExpenses/ezexpenses/screenshots/3.jpg" width="auto" height="auto">
     &nbsp  &nbsp  &nbsp  &nbsp
-    <img src="ezexpenses/screenshots/4.JPG" width="auto" height="auto">
+    <img src="https://github.com/nfariza/EzExpenses/blob/EzExpenses/ezexpenses/screenshots/4.jpg" width="auto" height="auto">
     &nbsp  &nbsp  &nbsp  &nbsp
-    <img src="ezexpenses/screenshots/5.JPG" width="auto" height="auto">
+    <img src="https://github.com/nfariza/EzExpenses/blob/EzExpenses/ezexpenses/screenshots/5.jpg" width="auto" height="auto">
     &nbsp  &nbsp  &nbsp  &nbsp
-    <img src="ezexpenses/screenshots/6.JPG" width="auto" height="auto">
+    <img src="https://github.com/nfariza/EzExpenses/blob/EzExpenses/ezexpenses/screenshots/6.jpg" width="auto" height="auto">
     &nbsp  &nbsp  &nbsp  &nbsp
-    <img src="ezexpenses/screenshots/7.JPG" width="auto" height="auto">
+    <img src="https://github.com/nfariza/EzExpenses/blob/EzExpenses/ezexpenses/screenshots/7.jpg" width="auto" height="auto">
     &nbsp  &nbsp  &nbsp  &nbsp
 </p>
