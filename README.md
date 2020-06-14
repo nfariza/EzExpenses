@@ -13,8 +13,10 @@ The system only have one user.
 * Manage House Expenses
    
 ## Language
-* Frontend : Android Studio
-* Database : Firebase
+* Frontend : Java
+
+## Database
+Firebase
 
 ## Screenshots
 <p>
