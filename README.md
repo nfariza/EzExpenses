@@ -13,14 +13,14 @@ The system only have one user.
 * Manage House Expenses
    
 ## Language
-* Frontend : Java
+Java
 
 ## Database
 Firebase
 
 ## Screenshots
 <p>
-<img src="https://github.com/nfariza/EzExpenses/blob/EzExpenses/ezexpenses/screenshots/1.jpg" width="auto" height="400">
+    <img src="https://github.com/nfariza/EzExpenses/blob/EzExpenses/ezexpenses/screenshots/1.jpg" width="auto" height="400">
     &nbsp  &nbsp  &nbsp  &nbsp
     <img src="https://github.com/nfariza/EzExpenses/blob/EzExpenses/ezexpenses/screenshots/2.jpg" width="auto" height="400">
     &nbsp  &nbsp  &nbsp  &nbsp
